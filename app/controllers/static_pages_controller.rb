@@ -4,4 +4,13 @@ class StaticPagesController < ApplicationController
 
   def help
   end
+
+  def hello
+  	render text: "Hello!"
+  end
+
+  def about
+  end
+
+
 end
